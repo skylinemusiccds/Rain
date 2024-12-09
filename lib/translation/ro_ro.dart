@@ -35,6 +35,8 @@ class RoRo {
         'thunderstorm': 'Furtună',
         'kph': 'km/h',
         'mph': 'mph',
+        'm/s': 'm/s',
+        'mmHg': 'mmHg',
         'mi': 'mi',
         'km': 'km',
         'inch': 'inch',
@@ -129,5 +131,11 @@ class RoRo {
         'hourlyVariables': 'Variabile meteorologice orare',
         'dailyVariables': 'Variabile meteorologice zilnice',
         'largeElement': 'Afișare mare a vremii',
+        'map': 'Hartă',
+        'clearCacheStore': 'Șterge cache-ul',
+        'deletedCacheStore': 'Ștergerea cache-ului',
+        'deletedCacheStoreQuery': 'Ești sigur că vrei să ștergi cache-ul?',
+        'addWidget': 'Adaugă widget',
+        'hideMap': 'Ascunde harta',
       };
 }

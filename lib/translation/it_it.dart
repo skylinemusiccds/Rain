@@ -35,6 +35,8 @@ class ItIt {
         'thunderstorm': 'Temporale',
         'kph': 'km/h',
         'mph': 'mph',
+        'm/s': 'm/s',
+        'mmHg': 'mmHg',
         'mi': 'mi',
         'km': 'km',
         'inch': 'inch',
@@ -131,5 +133,11 @@ class ItIt {
         'hourlyVariables': 'Variabili meteorologiche orarie',
         'dailyVariables': 'Variabili meteorologiche giornaliere',
         'largeElement': 'Visualizzazione grande elemento meteo',
+        'map': 'Mappa',
+        'clearCacheStore': 'Cancella cache',
+        'deletedCacheStore': 'Cancellazione della cache',
+        'deletedCacheStoreQuery': 'Sei sicuro di voler cancellare la cache?',
+        'addWidget': 'Aggiungi widget',
+        'hideMap': 'Nascondi mappa',
       };
 }

@@ -35,6 +35,8 @@ class EnUs {
         'thunderstorm': 'Thunderstorm',
         'kph': 'km/h',
         'mph': 'mph',
+        'm/s': 'm/s',
+        'mmHg': 'mmHg',
         'mi': 'mi',
         'km': 'km',
         'inch': 'inch',
@@ -130,5 +132,11 @@ class EnUs {
         'hourlyVariables': 'Hourly weather variables',
         'dailyVariables': 'Daily weather variables',
         'largeElement': 'Large weather display',
+        'map': 'Map',
+        'clearCacheStore': 'Clear cache',
+        'deletedCacheStore': 'Clearing the cache',
+        'deletedCacheStoreQuery': 'Are you sure you want to clear the cache?',
+        'addWidget': 'Add widget',
+        'hideMap': 'Hide map',
       };
 }

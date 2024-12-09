@@ -35,6 +35,8 @@ class DaDk {
         'thunderstorm': 'Tordenvejr',
         'kph': 'km/h',
         'mph': 'mph',
+        'm/s': 'm/s',
+        'mmHg': 'mmHg',
         'mi': 'mi',
         'km': 'km',
         'inch': 'tommer',
@@ -130,5 +132,11 @@ class DaDk {
         'hourlyVariables': 'Timevise vejrfaktorer',
         'dailyVariables': 'Daglige vejrfaktorer',
         'largeElement': 'Stort vejrdisplay',
+        'map': 'Kort',
+        'clearCacheStore': 'Ryd cache',
+        'deletedCacheStore': 'Rydder cache',
+        'deletedCacheStoreQuery': 'Er du sikker på, at du vil rydde cachen?',
+        'addWidget': 'Tilføj widget',
+        'hideMap': 'Skjul kort',
       };
 }

@@ -35,6 +35,8 @@ class GaIe {
         'thunderstorm': 'Tornaí',
         'kph': 'km/u',
         'mph': 'mi/u',
+        'm/s': 'm/s',
+        'mmHg': 'mmHg',
         'mi': 'míle',
         'km': 'km',
         'inch': 'úinse',
@@ -131,5 +133,12 @@ class GaIe {
         'hourlyVariables': 'Athrógacha aimsire uaireanta',
         'dailyVariables': 'Athrógacha aimsire laethúla',
         'largeElement': 'Taispeáint mór na haimsire',
+        'map': 'Léarscáil',
+        'clearCacheStore': 'Glan taisce',
+        'deletedCacheStore': 'Ag glanadh an taisce',
+        'deletedCacheStoreQuery':
+            'An bhfuil tú cinnte gur mian leat an taisce a ghlanadh?',
+        'addWidget': 'Cuir giuirléid leis',
+        'hideMap': 'Folaigh léarscáil',
       };
 }

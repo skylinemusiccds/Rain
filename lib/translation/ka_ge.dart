@@ -35,6 +35,8 @@ class KaGe {
         'thunderstorm': 'ჭექა-ქუხილი',
         'kph': 'კმ/სთ',
         'mph': 'მილი/სთ',
+        'm/s': 'მ/წმ',
+        'mmHg': 'მმHg',
         'mi': 'მილი',
         'km': 'კმ',
         'inch': 'ინჩი',
@@ -130,5 +132,12 @@ class KaGe {
         'hourlyVariables': 'საათობრივი ამინდის ცვლადები',
         'dailyVariables': 'ყოველდღიური ამინდის ცვლადები',
         'largeElement': 'გადიდი ამინდის გამოჩენა',
+        'map': 'რუკა',
+        'clearCacheStore': 'ქეშის გასუფთავება',
+        'deletedCacheStore': 'ქეშის გასუფთავება მიმდინარეობს',
+        'deletedCacheStoreQuery':
+            'დარწმუნებული ხართ, რომ გსურთ ქეშის გასუფთავება?',
+        'addWidget': 'ვიდჯეტის დამატება',
+        'hideMap': 'რუკის დამალვა',
       };
 }

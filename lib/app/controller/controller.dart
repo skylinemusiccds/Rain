@@ -11,16 +11,17 @@ import 'package:isar/isar.dart';
 import 'package:lat_lng_to_timezone/lat_lng_to_timezone.dart' as tzmap;
 import 'package:path_provider/path_provider.dart';
 import 'package:rain/app/api/api.dart';
-import 'package:rain/app/data/weather.dart';
-import 'package:rain/app/services/notification.dart';
-import 'package:rain/app/services/utils.dart';
-import 'package:rain/app/widgets/status/status_data.dart';
-import 'package:rain/app/widgets/status/status_weather.dart';
+import 'package:rain/app/data/db.dart';
+import 'package:rain/app/utils/notification.dart';
+import 'package:rain/app/utils/show_snack_bar.dart';
+import 'package:rain/app/ui/widgets/weather/status/status_data.dart';
+import 'package:rain/app/ui/widgets/weather/status/status_weather.dart';
 import 'package:rain/main.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import 'package:timezone/data/latest_all.dart' as tz;
 import 'package:timezone/standalone.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
+import 'package:url_launcher/url_launcher.dart';
 import 'package:workmanager/workmanager.dart';
 
 class WeatherController extends GetxController {
@@ -72,8 +73,7 @@ class WeatherController extends GetxController {
       return Future.error(
           'Location permissions are permanently denied, we cannot request permissions.');
     }
-    return await Geolocator.getCurrentPosition(
-        desiredAccuracy: LocationAccuracy.high);
+    return await Geolocator.getCurrentPosition();
   }
 
   Future<void> setLocation() async {
@@ -483,20 +483,20 @@ class WeatherController extends GetxController {
       if (notificationTime.isAfter(now) &&
           notificationTime.hour >= startHour &&
           notificationTime.hour <= endHour) {
-          for (var j = 0; j < mainWeatherCache.timeDaily!.length; j++) {
-            if (mainWeatherCache.timeDaily![j].day == notificationTime.day) {
-              NotificationShow().showNotification(
-                UniqueKey().hashCode,
-                '$city: ${mainWeatherCache.temperature2M![i]}°',
-                '${StatusWeather().getText(mainWeatherCache.weathercode![i])} · ${StatusData().getTimeFormat(mainWeatherCache.time![i])}',
-                notificationTime,
-                StatusWeather().getImageNotification(
-                  mainWeatherCache.weathercode![i],
-                  mainWeatherCache.time![i],
-                  mainWeatherCache.sunrise![j],
-                  mainWeatherCache.sunset![j],
-                ),
-              );
+        for (var j = 0; j < mainWeatherCache.timeDaily!.length; j++) {
+          if (mainWeatherCache.timeDaily![j].day == notificationTime.day) {
+            NotificationShow().showNotification(
+              UniqueKey().hashCode,
+              '$city: ${mainWeatherCache.temperature2M![i]}°',
+              '${StatusWeather().getText(mainWeatherCache.weathercode![i])} · ${StatusData().getTimeFormat(mainWeatherCache.time![i])}',
+              notificationTime,
+              StatusWeather().getImageNotification(
+                mainWeatherCache.weathercode![i],
+                mainWeatherCache.time![i],
+                mainWeatherCache.sunrise![j],
+                mainWeatherCache.sunset![j],
+              ),
+            );
           }
         }
       }
@@ -597,5 +597,12 @@ class WeatherController extends GetxController {
     ]).then((value) {
       return !value.contains(false);
     });
+  }
+
+  void urlLauncher(String uri) async {
+    final Uri url = Uri.parse(uri);
+    if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
+      throw Exception('Could not launch $url');
+    }
   }
 }

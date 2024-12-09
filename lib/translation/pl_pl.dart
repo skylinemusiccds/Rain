@@ -35,6 +35,8 @@ class PlPl {
         'thunderstorm': 'Burza z piorunami',
         'kph': 'km/h',
         'mph': 'mph',
+        'm/s': 'm/s',
+        'mmHg': 'mmHg',
         'mi': 'mi',
         'km': 'km',
         'inch': 'inch',
@@ -129,5 +131,12 @@ class PlPl {
         'hourlyVariables': 'Godzinowe zmienne pogodowe',
         'dailyVariables': 'Dzienne zmienne pogodowe',
         'largeElement': 'Duże wyświetlanie pogody',
+        'map': 'Mapa',
+        'clearCacheStore': 'Wyczyść pamięć podręczną',
+        'deletedCacheStore': 'Czyszczenie pamięci podręcznej',
+        'deletedCacheStoreQuery':
+            'Czy na pewno chcesz wyczyścić pamięć podręczną?',
+        'addWidget': 'Dodaj widget',
+        'hideMap': 'Ukryj mapę',
       };
 }

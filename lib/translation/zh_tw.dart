@@ -32,6 +32,8 @@ class ZhTw {
         'thunderstorm': '雷暴',
         'kph': '公里/時',
         'mph': '英里/時',
+        'm/s': '米/秒',
+        'mmHg': '毫米汞柱',
         'mi': '英里',
         'km': '公里',
         'inch': '英呎',
@@ -126,5 +128,11 @@ class ZhTw {
         'hourlyVariables': '每小時天氣變量',
         'dailyVariables': '每日天氣變量',
         'largeElement': '大型天氣顯示',
+        'map': '地圖',
+        'clearCacheStore': '清除快取',
+        'deletedCacheStore': '正在清除快取',
+        'deletedCacheStoreQuery': '您確定要清除快取嗎？',
+        'addWidget': '新增小工具',
+        'hideMap': '隱藏地圖',
       };
 }

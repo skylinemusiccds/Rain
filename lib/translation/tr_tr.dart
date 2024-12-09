@@ -35,6 +35,8 @@ class TrTr {
         'thunderstorm': 'Gök Gürültülü Fırtına',
         'kph': 'km/sa',
         'mph': 'mil/sa',
+        'm/s': 'm/s',
+        'mmHg': 'mmHg',
         'mi': 'mil',
         'km': 'km',
         'inch': 'inç',
@@ -129,5 +131,12 @@ class TrTr {
         'hourlyVariables': 'Saatlik hava değişkenleri',
         'dailyVariables': 'Günlük hava değişkenleri',
         'largeElement': 'Büyük hava durumu gösterimi',
+        'map': 'Harita',
+        'clearCacheStore': 'Önbelleği temizle',
+        'deletedCacheStore': 'Önbellek temizleniyor',
+        'deletedCacheStoreQuery':
+            'Önbelleği temizlemek istediğinizden emin misiniz?',
+        'addWidget': 'Widget ekle',
+        'hideMap': 'Haritayı gizle',
       };
 }

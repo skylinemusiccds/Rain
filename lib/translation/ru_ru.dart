@@ -34,6 +34,8 @@ class RuRu {
         'snow': 'Снег',
         'thunderstorm': 'Гроза',
         'kph': 'км/ч',
+        'm/s': 'м/с',
+        'mmHg': 'мм рт. ст.',
         'mph': 'миль/ч',
         'mi': 'миль',
         'km': 'км',
@@ -130,5 +132,11 @@ class RuRu {
         'hourlyVariables': 'Почасовые погодные условия',
         'dailyVariables': 'Ежедневные погодные условия',
         'largeElement': 'Отображение погоды большим элементом',
+        'map': 'Карта',
+        'clearCacheStore': 'Очистить кэш',
+        'deletedCacheStore': 'Очистка кэша',
+        'deletedCacheStoreQuery': 'Вы уверены, что хотите очистить кэш?',
+        'addWidget': 'Добавить виджет',
+        'hideMap': 'Скрыть карту',
       };
 }

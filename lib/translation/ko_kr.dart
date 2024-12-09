@@ -32,6 +32,8 @@ class KoKr {
         'thunderstorm': '천둥번개',
         'kph': 'km/h',
         'mph': 'mph',
+        'm/s': '미터/초',
+        'mmHg': '밀리미터 수은주',
         'mi': 'mi',
         'km': 'km',
         'inch': '인치',
@@ -126,5 +128,11 @@ class KoKr {
         'hourlyVariables': '시간별 날씨 변수',
         'dailyVariables': '일별 날씨 변수',
         'largeElement': '큰 날씨 표시',
+        'map': '지도',
+        'clearCacheStore': '캐시 지우기',
+        'deletedCacheStore': '캐시 삭제 중',
+        'deletedCacheStoreQuery': '캐시를 정말로 지우시겠습니까?',
+        'addWidget': '위젯 추가',
+        'hideMap': '지도를 숨기기',
       };
 }

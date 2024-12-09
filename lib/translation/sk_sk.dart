@@ -35,6 +35,8 @@ class SkSk {
         'thunderstorm': 'Búrka',
         'kph': 'km/h',
         'mph': 'mph',
+        'm/s': 'm/s',
+        'mmHg': 'mmHg',
         'mi': 'mi',
         'km': 'km',
         'inch': 'inch',
@@ -129,5 +131,12 @@ class SkSk {
         'hourlyVariables': 'Hodinové meteorologické premenné',
         'dailyVariables': 'Denné meteorologické premenné',
         'largeElement': 'Veľké zobrazenie počasia',
+        'map': 'Mapa',
+        'clearCacheStore': 'Vymazať vyrovnávaciu pamäť',
+        'deletedCacheStore': 'Vymazávanie vyrovnávacej pamäte',
+        'deletedCacheStoreQuery':
+            'Ste si istí, že chcete vymazať vyrovnávaciu pamäť?',
+        'addWidget': 'Pridať widget',
+        'hideMap': 'Skryť mapu',
       };
 }

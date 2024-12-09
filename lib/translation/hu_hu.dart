@@ -35,6 +35,8 @@ class HuHu {
         'thunderstorm': 'Zivatar',
         'kph': 'km/óra',
         'mph': 'mph',
+        'm/s': 'm/s',
+        'mmHg': 'mmHg',
         'mi': 'mérföld',
         'km': 'km',
         'inch': 'hüvelyk',
@@ -131,5 +133,11 @@ class HuHu {
         'hourlyVariables': 'Óránkénti időjárási változók',
         'dailyVariables': 'Napi időjárási változók',
         'largeElement': 'Nagy méretű időjárás megjelenítése',
+        'map': 'Térkép',
+        'clearCacheStore': 'Gyorsítótár törlése',
+        'deletedCacheStore': 'Gyorsítótár törlése folyamatban',
+        'deletedCacheStoreQuery': 'Biztosan törölni szeretné a gyorsítótárat?',
+        'addWidget': 'Widget hozzáadása',
+        'hideMap': 'Térkép elrejtése',
       };
 }

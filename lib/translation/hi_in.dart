@@ -35,6 +35,8 @@ class HiIn {
         'thunderstorm': 'बिजली चमक',
         'kph': 'किमी/घंटा',
         'mph': 'मील/घंटा',
+        'm/s': 'मी/से',
+        'mmHg': 'मिमी एचजी',
         'mi': 'मील',
         'km': 'किमी',
         'inch': 'इंच',
@@ -128,5 +130,11 @@ class HiIn {
         'hourlyVariables': 'घंटेवार मौसम चर',
         'dailyVariables': 'दैनिक मौसम चर',
         'largeElement': 'बड़े मौसम का प्रदर्शन',
+        'map': 'मानचित्र',
+        'clearCacheStore': 'कैश साफ़ करें',
+        'deletedCacheStore': 'कैश साफ़ हो रहा है',
+        'deletedCacheStoreQuery': 'क्या आप वाकई कैश साफ़ करना चाहते हैं?',
+        'addWidget': 'विजेट जोड़ें',
+        'hideMap': 'मानचित्र छिपाएँ',
       };
 }

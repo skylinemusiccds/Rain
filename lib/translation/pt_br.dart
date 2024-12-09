@@ -35,6 +35,8 @@ class PtBr {
         'thunderstorm': 'Tempestade',
         'kph': 'km/h',
         'mph': 'mph',
+        'm/s': 'm/s',
+        'mmHg': 'mmHg',
         'mi': 'mi',
         'km': 'km',
         'inch': 'inch',
@@ -130,5 +132,11 @@ class PtBr {
         'hourlyVariables': 'Variáveis meteorológicas horárias',
         'dailyVariables': 'Variáveis meteorológicas diárias',
         'largeElement': 'Exibição grande do clima',
+        'map': 'Mapa',
+        'clearCacheStore': 'Limpar cache',
+        'deletedCacheStore': 'Limpando cache',
+        'deletedCacheStoreQuery': 'Tem certeza de que deseja limpar o cache?',
+        'addWidget': 'Adicionar widget',
+        'hideMap': 'Ocultar mapa',
       };
 }

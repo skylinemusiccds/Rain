@@ -37,6 +37,8 @@ class FaIr {
         'mph': 'mph',
         'mi': 'mi',
         'km': 'km',
+        'm/s': 'm/s',
+        'mmHg': 'mmHg',
         'inch': 'inch',
         'mm': 'mm',
         'hPa': 'hPa',
@@ -130,5 +132,12 @@ class FaIr {
         'hourlyVariables': 'متغیرهای ساعتی هواشناسی',
         'dailyVariables': 'متغیرهای روزانه هواشناسی',
         'largeElement': 'نمایش هواشناسی بزرگ',
+        'map': 'نقشه',
+        'clearCacheStore': 'پاک کردن حافظه نهان',
+        'deletedCacheStore': 'در حال پاک کردن حافظه نهان',
+        'deletedCacheStoreQuery':
+            'آیا مطمئن هستید که می‌خواهید حافظه نهان را پاک کنید؟',
+        'addWidget': 'افزودن ویجت',
+        'hideMap': 'پنهان کردن نقشه',
       };
 }

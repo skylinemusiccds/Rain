@@ -35,6 +35,8 @@ class DeDe {
         'thunderstorm': 'Gewitter',
         'kph': 'km/h',
         'mph': 'mph',
+        'm/s': 'm/s',
+        'mmHg': 'mmHg',
         'mi': 'mi',
         'km': 'km',
         'inch': 'inch',
@@ -131,5 +133,12 @@ class DeDe {
         'hourlyVariables': 'Stündliche Wettervariablen',
         'dailyVariables': 'Tägliche Wettervariablen',
         'largeElement': 'Große Wetteranzeige',
+        'map': 'Karte',
+        'clearCacheStore': 'Cache leeren',
+        'deletedCacheStore': 'Cache wird geleert',
+        'deletedCacheStoreQuery':
+            'Sind Sie sicher, dass Sie den Cache leeren möchten?',
+        'addWidget': 'Widget hinzufügen',
+        'hideMap': 'Karte ausblenden',
       };
 }

@@ -35,6 +35,8 @@ class NlNl {
         'thunderstorm': 'Onweersbui',
         'kph': 'km/h',
         'mph': 'mph',
+        'm/s': 'm/s',
+        'mmHg': 'mmHg',
         'mi': 'mi',
         'km': 'km',
         'inch': 'inch',
@@ -131,5 +133,11 @@ class NlNl {
         'hourlyVariables': 'Uurlijkse weervariabelen',
         'dailyVariables': 'Dagelijkse weervariabelen',
         'largeElement': 'Groot weerbericht weergeven',
+        'map': 'Kaart',
+        'clearCacheStore': 'Cache wissen',
+        'deletedCacheStore': 'Cache wissen',
+        'deletedCacheStoreQuery': 'Weet je zeker dat je de cache wilt wissen?',
+        'addWidget': 'Widget toevoegen',
+        'hideMap': 'Kaart verbergen',
       };
 }

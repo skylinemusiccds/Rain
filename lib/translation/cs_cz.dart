@@ -35,6 +35,8 @@ class CsCz {
         'thunderstorm': 'Bouřka',
         'kph': 'km/h',
         'mph': 'mph',
+        'm/s': 'm/s',
+        'mmHg': 'mmHg',
         'mi': 'mi',
         'km': 'km',
         'inch': 'inch',
@@ -129,5 +131,11 @@ class CsCz {
         'hourlyVariables': 'Hodinové meteorologické proměnné',
         'dailyVariables': 'Denní meteorologické proměnné',
         'largeElement': 'Velké zobrazení počasí',
+        'map': 'Mapa',
+        'clearCacheStore': 'Vymazat mezipaměť',
+        'deletedCacheStore': 'Čištění mezipaměti',
+        'deletedCacheStoreQuery': 'Opravdu chcete vymazat mezipaměť?',
+        'addWidget': 'Přidat widget',
+        'hideMap': 'Skrýt mapu',
       };
 }

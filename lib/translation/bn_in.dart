@@ -35,6 +35,8 @@ class BnIn {
         'thunderstorm': 'বজ্রপাত',
         'kph': 'কিমি/ঘণ্টা',
         'mph': 'মাইল/ঘণ্টা',
+        'm/s': 'মি/সে',
+        'mmHg': 'মিমি Hg',
         'mi': 'মাইল',
         'km': 'কিমি',
         'inch': 'ইঞ্চ',
@@ -129,5 +131,11 @@ class BnIn {
         'hourlyVariables': 'ঘণ্টায় আবহাওয়ার পরিবর্তনশীল',
         'dailyVariables': 'দৈনিক আবহাওয়ার পরিবর্তনশীল',
         'largeElement': 'বড় আবহাওয়া ডিসপ্লে',
+        'map': 'মানচিত্র',
+        'clearCacheStore': 'ক্যাশ পরিষ্কার করুন',
+        'deletedCacheStore': 'ক্যাশ পরিষ্কার করা হচ্ছে',
+        'deletedCacheStoreQuery': 'আপনি কি সত্যিই ক্যাশ পরিষ্কার করতে চান?',
+        'addWidget': 'উইজেট যোগ করুন',
+        'hideMap': 'মানচিত্র লুকান',
       };
 }

@@ -35,6 +35,8 @@ class FrFr {
         'thunderstorm': 'Orage',
         'kph': 'km/h',
         'mph': 'mph',
+        'm/s': 'm/s',
+        'mmHg': 'mmHg',
         'mi': 'mi',
         'km': 'km',
         'inch': 'inch',
@@ -131,5 +133,11 @@ class FrFr {
         'hourlyVariables': 'Variables météorologiques horaires',
         'dailyVariables': 'Variables météorologiques quotidiennes',
         'largeElement': 'Affichage météo grand format',
+        'map': 'Carte',
+        'clearCacheStore': 'Effacer le cache',
+        'deletedCacheStore': 'Effacement du cache',
+        'deletedCacheStoreQuery': 'Êtes-vous sûr de vouloir effacer le cache?',
+        'addWidget': 'Ajouter un widget',
+        'hideMap': 'Cacher la carte',
       };
 }

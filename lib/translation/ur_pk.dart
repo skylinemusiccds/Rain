@@ -35,6 +35,8 @@ class UrPk {
         'thunderstorm': 'طوفانی بارش',
         'kph': 'کلومیٹر فی گھنٹہ',
         'mph': 'میل فی گھنٹہ',
+        'm/s': 'میٹر/سیکنڈ',
+        'mmHg': 'ملی میٹر مرکری',
         'mi': 'میل',
         'km': 'کلومیٹر',
         'inch': 'انچ',
@@ -130,5 +132,11 @@ class UrPk {
         'hourlyVariables': 'ہر گھنٹے کے موسمی متغیرات',
         'dailyVariables': 'روزانہ کے موسمی متغیرات',
         'largeElement': 'بڑے موسم کا ڈسپلے',
+        'map': 'نقشہ',
+        'clearCacheStore': 'کیچ صاف کریں',
+        'deletedCacheStore': 'کیچ صاف کی جارہی ہے',
+        'deletedCacheStoreQuery': 'کیا آپ واقعی کیچ صاف کرنا چاہتے ہیں؟',
+        'addWidget': 'ویجٹ شامل کریں',
+        'hideMap': 'نقشہ چھپائیں',
       };
 }
